@@ -2,3 +2,9 @@ name: OneBlock
 version: '1.0-SNAPSHOT'
 main: Mathano.Plugins.oneBlock.OneBlock
 api-version: '1.21'
+commands:
+  oneblock:
+    usage: /oneblock
+    aliases: ob
+    permission: oneblock.oneblock
+    permission-message: You do not have permission.
